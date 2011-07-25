@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="res">
+      <UniqueIdentifier>{f80930ec-0806-42d1-bb91-f42682123cde}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{763569e9-5fa5-460a-8924-d64fe689f9bb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\Main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\Base.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Config.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>res</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="NightCityBlues.rc">
+      <Filter>res</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\out\nc.png">
+      <Filter>res</Filter>
+    </None>
+    <None Include="..\..\out\airplane.png">
+      <Filter>res</Filter>
+    </None>
+    <None Include="..\..\out\blues.mp3">
+      <Filter>res</Filter>
+    </None>
+    <None Include="..\..\out\airplane-lights-green.png">
+      <Filter>res</Filter>
+    </None>
+    <None Include="..\..\out\nc-lights1.png">
+      <Filter>res</Filter>
+    </None>
+    <None Include="..\..\out\airplane-lights-red.png">
+      <Filter>res</Filter>
+    </None>
+    <None Include="..\..\out\airplane-lights-white.png">
+      <Filter>res</Filter>
+    </None>
+    <None Include="..\..\out\np.png" />
+  </ItemGroup>
+</Project>
